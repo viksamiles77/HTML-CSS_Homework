@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 4</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form action="" method="">
+      <h1>Shopping Form</h1>
+      <fieldset>
+        <label for="firstName">First Name:</label><br />
+        <input
+          type="text"
+          name="firstName"
+          id="firstName"
+          placeholder="ex. John"
+          required
+          maxlength="15"
+        />
+        <br />
+        <br />
+        <label for="lastName">Last Name:</label><br />
+        <input
+          type="text"
+          name="lastName"
+          id="lastName"
+          placeholder="ex. Doe"
+          required
+          maxlength="15"
+        />
+        <br />
+        <br />
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="asd@gmail.com"
+          required
+        />
+        <br />
+        <br />
+        <label for="phoneNumber">Phone Number:</label><br />
+        <input
+          type="tel"
+          name="phoneNumber"
+          id="phoneNumber"
+          placeholder="+389..."
+          required
+        />
+      </fieldset>
+      <fieldset>
+        <label for="shippingAddress">Shipping Address:</label><br />
+        <textarea
+          name="shippingAddress"
+          id="shippingAddress"
+          cols="30"
+          rows="5"
+          required
+          placeholder="Street Name and Number"
+        ></textarea>
+        <br />
+        <br />
+        <label for="billingAddress">Billing Address:</label><br />
+        <textarea
+          name="billingAddress"
+          id="billingAddress"
+          cols="30"
+          rows="5"
+          required
+          placeholder="Address line 1"
+        ></textarea>
+        <br />
+        <br />
+        <label for="deliveryMethod">Delivery Method:</label><br />
+        <select name="deliveryMethod" id="deliveryMethod" required>
+          <option value="" selected disabled>
+            Please select delivery method
+          </option>
+          <option value="standardDelivery">
+            Standard Delivery (4-7 business days)
+          </option>
+          <option value="expressDelivery">
+            Express Delivery (2-3 business days)
+          </option>
+        </select>
+        <br />
+        <br />
+        <label for="giftWrapping">Gift Wrapping:</label>
+        <input type="checkbox" name="giftWrapping" id="giftWrapping" />
+        <br />
+        <br />
+        <label for="giftMessage">Gift Message:</label><br />
+        <textarea
+          name="giftMessage"
+          id="giftMessage"
+          cols="30"
+          rows="5"
+          placeholder="ex. Happy Birthday..."
+        ></textarea>
+      </fieldset>
+      <fieldset>
+        <label for="paymentMethod">Payment Method</label><br />
+        <select name="paymentMethod" id="paymentMethod" required>
+          <option value="" selected disabled>Select</option>
+          <option value="creditCard">Credit Card</option>
+          <option value="debitCard">Debit Card</option>
+          <option value="payPal">Pay Pal</option>
+        </select>
+        <br />
+        <br />
+        <label for="ccn">Credit Card Number:</label><br />
+        <input
+          type="tel"
+          name="ccn"
+          id="ccn"
+          placeholder="XXXX XXXX XXXX XXXX"
+          inputmode="numeric"
+          maxlength="19"
+          required
+        />
+        <br />
+        <br />
+        <label for="expDate">Expiration Date:</label><br />
+        <input type="date" name="expDate" id="expDate" required />
+        <br />
+        <br />
+        <label for="cvc">CVC:</label><br />
+        <input
+          type="tel"
+          name="cvc"
+          id="cvc"
+          required
+          maxlength="3"
+          placeholder="XXX"
+        />
+        <br />
+        <br />
+        <label for="savePaymentMethod"
+          >Save Payment Method for Future Purchase:</label
+        >
+        <input
+          type="checkbox"
+          name="savePaymentMethod"
+          id="savePaymentMethod"
+        />
+      </fieldset>
+      <fieldset>
+        <p>Preferred Contact Method for Order Updates</p>
+        <input
+          type="radio"
+          name="contactType"
+          id="contactEmail"
+          value="email"
+          required
+        />
+        <label for="contactEmail">Email</label><br /><br />
+        <input
+          type="radio"
+          name="contactType"
+          id="contactPhone"
+          value="phone"
+          required
+        />
+        <label for="contactPhone">Phone</label><br /><br />
+        <input
+          type="radio"
+          name="contactType"
+          id="contactBoth"
+          value="both"
+          required
+        />
+        <label for="contactBoth">Both Email and Phone</label>
+        <br />
+        <br />
+        <br />
+        <label for="orderNotes">Order Notes:</label><br />
+        <textarea
+          name="orderNotes"
+          id="orderNotes"
+          cols="30"
+          rows="5"
+          placeholder="ex. Happy Birthday..."
+        ></textarea>
+      </fieldset>
+      <br />
+      <br />
+      <button type="reset">Cancel</button>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
