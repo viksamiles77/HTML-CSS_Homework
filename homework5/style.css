@@ -1,0 +1,95 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 1px;
+    height: 68px;
+}
+
+.header-list {
+    list-style-type: none
+}
+
+.header-icons {
+    height: 30px;
+    width: 30px;
+}
+
+.header-items {
+    display: inline-block;
+}
+
+.icons-margin {
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 34px;
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.el-logo {
+    height: 32px;
+    width: 110px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+    
+}
+
+nav a {
+    color:black
+}
+
+article {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: larger;
+    padding: 13px;
+}
+
+.players ul {
+    list-style-type: none;
+}
+
+video {
+    margin-left: 20px;
+}
+
+
+
+
