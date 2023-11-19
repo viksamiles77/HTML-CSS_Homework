@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ropa Sans', 'Roboto' sans-serif;
+    background-color: rgb(214, 214, 214);
+    margin: 0;
+}
+
+nav {
+    background-color: #191f22;
+    font-family: 'Ropa Sans';
+    color: white;
+}
+
+header {
+    background-color: #191f22;
+}
+
+h1 {
+    margin: 0;
+    padding: 10px 0px;
+    font-size: 2.5em;
+    color: white;
+}
+
+.nav {
+    text-align: center;
+}
+
+.image-container {
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+h2 {
+    margin: 10px 0px 10px 0px;
+    font-weight: 900;
+    color: #56198f;
+    font-style: italic;
+}
+
+.h2-main {
+    font-family: 'Ropa Sans';
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.main-aside {
+    display: flex;
+    font-family: 'Roboto';
+    background-color: black;
+    color: white;
+}
+
+.p-div {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p a:hover {
+    color: aqua;
+}
+
+.h3-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: rgb(32, 131, 126);
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:focus {
+    color: brown;
+}
+
+aside a:hover {
+    color: red;
+}
+
+aside a:active {
+    color: green;
+}
+
+.main-paragraphs {
+    font-family: 'Ropa Sans';
+    margin: 20px;
+    justify-content: left;
+    font-size: 20px;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-word {
+    font-style: italic;
+}
+
+footer {
+    background-color: #191f22;
+    display: flex;
+}
+
+.footer-span {
+    height: 70px;
+    width: 150px;
+    margin: 15px;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
