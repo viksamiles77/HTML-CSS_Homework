@@ -20,10 +20,6 @@ body {
     justify-content: space-around;
 }
 
-/* .logo-wrap {
-    margin-left: 250px;
-} */
-
 .nav-links ul {
     display: flex;
     list-style: none;
@@ -31,6 +27,10 @@ body {
     margin-right: 300px;
     font-weight: 500;
     letter-spacing: 1px;
+}
+
+.hamburger-wrap {
+    display: none;
 }
 
 .arrow-down {
@@ -594,4 +594,241 @@ footer .footer-last p span:hover {
     height: 24px;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav-links ul {
+        margin-right: 0;
+        font-size: 15px;
+    }
+
+    #nav-img-logo {
+        width: 140px;
+        height: auto;
+    }
+
+
+    .li-margin {
+        margin-right: 10px;
+    }
+
+    .hamburger-wrap {
+        display: none;
+    }
+
+    .main-column {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .main-container .content-inside h4 {
+        color: #fff;
+        font-size: 6vw;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .main-container .content-inside span {
+        color: #fff;
+        font-size: 2vw;
+        font-weight: 400;
+        font-style: italic;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .main-container {
+        padding-left: 3%;
+        height: 3400px;
+    }
+
+    .main-container .content-right {
+        flex-direction: column;
+    }
+
+    .main-container .content-right .content-right-col-1 {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .main-container .col-1-top {
+        margin-bottom: 0;
+    }
+
+    .main-container .content-right-col-2 {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .main-container .content-inside-cols h3 {
+        font-size: 4.25vw;
+        color: #fff;
+    }
+
+    .main-container .content-inside-cols {
+        top: 45%;
+        left: 40%;
+    }
+
+    .main-container .content-inside-cols span {
+        font-size: 1.8vw;
+    }
+
+    .main-row {
+        flex-direction: column;
+    }
+
+    .latest-container {
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .latest-section .latest-container .latest-image-img {
+        width: 300px;
+        height: auto;
+    }
+
+    .latest-section .latest-container .latest-wrap {
+        margin: 10px;
+    }
+
+    .wrap-img-none {
+        display: none;
+    }
+
+    .explore-products-row {
+        flex-direction: column;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .explore-column {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    #explore-column-right {
+        margin-left: 0;
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .explore-content-right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .explore-col-1 {
+        width: 100%;
+    }
+
+    .explore-col-2 {
+        width: 100%;
+    }
+
+    #explore-img-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    #explore-img-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .explore-products-container {
+        height: 2400px;
+    }
+
+    .content-inside-explore-text {
+        width: 100%;
+    }
+
+    .image-inside-explore-col-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .image-inside-explore-col-2 {
+        width: 100%;
+        height: auto;
+    }
+
+    .social-media-img-wrap {
+        flex-wrap: nowrap;
+    }
+
+    .social-media-images {
+        width: 85px;
+        height: 85px;
+    }
+
+    .footer-row {
+        margin-left: 0;
+        margin-right: 0;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-container {
+        margin: 0;
+        padding-left: 4%;
+        height: 2750px;
+    }
+
+    .main-container .content-inside h4 {
+        font-size: 10vw;
+    }
+
+    .main-container .content-inside span {
+        font-size: 3vw;
+    }
+
+    .main-container .content-inside-cols h3 {
+        font-size: 8.25vw;
+    }
+
+    .main-container .content-inside-cols span {
+        font-size: 2.8vw;
+    }
+
+    .main-container .content-inside-cols {
+        top: 38%;
+        left: 35%;
+    }
+
+    #accessories-center {
+        top: 38%;
+        left: 25%;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger-wrap {
+        display: block;
+    }
+
+    .wrap-img-none-mbl {
+        display: none;
+    }
+
+    .explore-products-container {
+        height: 2150px;
+    }
+
+    .footer-col-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-row ul {
+        text-align: center;
+    }
 }

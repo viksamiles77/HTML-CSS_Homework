@@ -16,7 +16,7 @@
 <body>
     <header class="navigation">
         <div class="nav-bar">
-            <div class="logo-wrap"><img src="./images/logo.png" alt="logo"></div>
+            <div class="logo-wrap"><img src="./images/logo.png" alt="logo" id="nav-img-logo"></div>
         </div>
         <div class="nav-links">
             <ul>
@@ -34,6 +34,9 @@
                 </div>
                 <li class="li-margin"><a href="#">Explore</a></li>
             </ul>
+        </div>
+        <div class="hamburger-wrap">
+            <img src="./images/more.png" alt="hamburger">
         </div>
     </header>
     <!-- <main> -->
@@ -76,7 +79,7 @@
                             <img src="./images/baner-right-image-02.jpg" alt="baner-right-image-02" class="main-images">
                         </div>
                         <div class="col-2-bot">
-                            <div class="content-inside-cols">
+                            <div class="content-inside-cols" id="accessories-center">
                                 <h3>Accessories</h3>
                                 <span>Best Trend Accessories</span>
                             </div>
@@ -96,7 +99,7 @@
         <div class="latest-container">
             <div class="latest-wrap">
                 <div class="latest-image">
-                    <img src="./images/men-01.jpg" alt="men-01">
+                    <img src="./images/men-01.jpg" alt="men-01" class="latest-image-img">
                 </div>
                 <div class="latest-image-info">
                     <div class="ltst-img-h4-wrap">
@@ -112,9 +115,9 @@
                     <span>$120.00</span>
                 </div>
             </div>
-            <div class="latest-wrap">
+            <div class="latest-wrap wrap-img-none-mbl">
                 <div class="latest-image">
-                    <img src="./images/men-02.jpg" alt="men-02">
+                    <img src="./images/men-02.jpg" alt="men-02" class="latest-image-img">
                 </div>
                 <div class="latest-image-info">
                     <div class="ltst-img-h4-wrap">
@@ -130,9 +133,9 @@
                     <span>$90.00</span>
                 </div>
             </div>
-            <div class="latest-wrap">
+            <div class="latest-wrap wrap-img-none">
                 <div class="latest-image">
-                    <img src="./images/men-03.jpg" alt="men-03">
+                    <img src="./images/men-03.jpg" alt="men-03" class="latest-image-img">
                 </div>
                 <div class="latest-image-info">
                     <div class="ltst-img-h4-wrap">
@@ -158,7 +161,7 @@
         <div class="latest-container">
             <div class="latest-wrap">
                 <div class="latest-image">
-                    <img src="./images/women-01.jpg" alt="women-01">
+                    <img src="./images/women-01.jpg" alt="women-01" class="latest-image-img">
                 </div>
                 <div class="latest-image-info">
                     <div class="ltst-img-h4-wrap">
@@ -174,9 +177,9 @@
                     <span>$75.00</span>
                 </div>
             </div>
-            <div class="latest-wrap">
+            <div class="latest-wrap wrap-img-none-mbl">
                 <div class="latest-image">
-                    <img src="./images/women-02.jpg" alt="women-02">
+                    <img src="./images/women-02.jpg" alt="women-02" class="latest-image-img">
                 </div>
                 <div class="latest-image-info">
                     <div class="ltst-img-h4-wrap">
@@ -192,9 +195,9 @@
                     <span>$45.00</span>
                 </div>
             </div>
-            <div class="latest-wrap">
+            <div class="latest-wrap wrap-img-none">
                 <div class="latest-image">
-                    <img src="./images/women-03.jpg" alt="women-03">
+                    <img src="./images/women-03.jpg" alt="women-03" class="latest-image-img">
                 </div>
                 <div class="latest-image-info">
                     <div class="ltst-img-h4-wrap">
@@ -220,7 +223,7 @@
         <div class="latest-container">
             <div class="latest-wrap">
                 <div class="latest-image">
-                    <img src="./images/kid-01.jpg" alt="kid-01">
+                    <img src="./images/kid-01.jpg" alt="kid-01" class="latest-image-img">
                 </div>
                 <div class="latest-image-info">
                     <div class="ltst-img-h4-wrap">
@@ -236,9 +239,9 @@
                     <span>$80.00</span>
                 </div>
             </div>
-            <div class="latest-wrap">
+            <div class="latest-wrap wrap-img-none-mbl">
                 <div class="latest-image">
-                    <img src="./images/kid-02.jpg" alt="kid-02">
+                    <img src="./images/kid-02.jpg" alt="kid-02" class="latest-image-img">
                 </div>
                 <div class="latest-image-info">
                     <div class="ltst-img-h4-wrap">
@@ -254,9 +257,9 @@
                     <span>$12.00</span>
                 </div>
             </div>
-            <div class="latest-wrap">
+            <div class="latest-wrap wrap-img-none">
                 <div class="latest-image">
-                    <img src="./images/kid-03.jpg" alt="kid-03">
+                    <img src="./images/kid-03.jpg" alt="kid-03" class="latest-image-img">
                 </div>
                 <div class="latest-image-info">
                     <div class="ltst-img-h4-wrap">
@@ -306,7 +309,7 @@
                             <img src="./images/explore-image-02.jpg" alt="explore-image-02" id="explore-img-2">
                         </div>
                     </div>
-                    <div class="expolore-col-2">
+                    <div class="explore-col-2">
                         <div class="image-inside-explore-col-2">
                             <img src="./images/explore-image-01.jpg" alt="explore-image-01" id="explore-img-1">
                             <div class="content-inside-explore-text">
@@ -338,62 +341,11 @@
             <img src="./images/shop5.jpg" alt="bag" class="social-media-images">
         </div>
     </section>
-    <section class="form">
-        <div class="form-row">
-            <div class="form-column">
-                <div class="form-col-1">
-                    <h2>By Subscribing To Our Newsletter You Can Get 30% Off</h2>
-                    <span>Details to details is what makes Hexashop different from the other themes.</span>
-                    <div class="input-place">
-                        <input type="text" id="fname" name="firstname" placeholder="Your name">
-                        <input type="email" id="email" name="email" placeholder="Your Email Address">
-                        <button id="form-btn"><img src="./images/paper-plane.png" alt="paper-plane"></button>
-                    </div>
-                </div>
-            </div>
-            <div class="form-column">
-                <div class="form-col-2">
-                    <ul>
-                        <li>
-                            <h5>Store Location</h5>
-                            <span>Sunny Isles Beach, FL 33160, United States</span>
-                        </li>
-                        <li>
-                            <h5>Phone:</h5>
-                            <span>010-020-0340</span>
-                        </li>
-                        <li>
-                            <h5>Office Location:</h5>
-                            <span>North Miami Beach</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="form-column">
-                <div class="form-col-3">
-                    <ul>
-                        <li>
-                            <h5>Store Location</h5>
-                            <span>Sunny Isles Beach, FL 33160, United States</span>
-                        </li>
-                        <li>
-                            <h5>Phone:</h5>
-                            <span>010-020-0340</span>
-                        </li>
-                        <li>
-                            <h5>Office Location:</h5>
-                            <span>North Miami Beach</span>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
     <footer>
         <div class="footer-row">
             <div class="footer-column">
                 <div class="footer-col-1">
-                    <img src="./images/white-logo.png" alt="logo">
+                    <img src="./images/white-logo.png" alt="logo" id="footer-logo">
                     <ul>
                         <li>16501 Collins Ave, Sunny Isles Beach, FL 33160, United States</li>
                         <li>hexashop@company.com</li>
